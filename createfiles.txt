@@ -1,0 +1,12 @@
+echo off
+rem go to into danilov
+cd danilov
+rem create firstfile
+echo > 30112003.txt
+rem go to into sergej
+cd sergej
+rem go to into thirdcat
+cd alexeevich
+rem create thirdfile
+echo > 002.txt
+pause

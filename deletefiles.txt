@@ -1,0 +1,3 @@
+echo off
+del danilov /s/q/f
+pause
