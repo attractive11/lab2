@@ -1,9 +1,0 @@
-echo off
-cd danilov
-cd sergey
-rd alexeevich
-cd ..\
-rd sergey
-cd ..\
-rd danilov
-pause
