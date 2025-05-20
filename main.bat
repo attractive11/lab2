@@ -1,47 +1,43 @@
  @echo off
 chcp 1251 > nul
 
-rem === Шаг 1: Создание папок с переходами ===
-echo Шаг 1: Создание папок...
+echo РЁР°Рі 1: РЎРѕР·РґР°РЅРёРµ РїР°РїРѕРє...
 md danilov
 cd danilov
 md sergey
 cd sergey
 md alexeevich
 cd ..\..
-echo Папки созданы.
+echo РџР°РїРєРё СЃРѕР·РґР°РЅС‹.
 pause
 
-rem === Шаг 2: Создание файлов с переходами ===
-echo Шаг 2: Создание файлов...
+echo РЁР°Рі 2: РЎРѕР·РґР°РЅРёРµ С„Р°Р№Р»РѕРІ...
 cd danilov
 echo. > 30112003.txt
 cd sergey
 cd alexeevich
 echo. > 002.txt
 cd ..\..\..
-echo Файлы созданы.
+echo Р¤Р°Р№Р»С‹ СЃРѕР·РґР°РЅС‹.
 pause
 
-rem === Шаг 3: Удаление файлов с переходами ===
-echo Шаг 3: Удаление файлов...
+echo РЁР°Рі 3: РЈРґР°Р»РµРЅРёРµ С„Р°Р№Р»РѕРІ...
 cd danilov
 del 30112003.txt
 cd sergey
 cd alexeevich
 del 002.txt
 cd ..\..\..
-echo Файлы удалены.
+echo Р¤Р°Р№Р»С‹ СѓРґР°Р»РµРЅС‹.
 pause
 
-rem === Шаг 4: Удаление папок с переходами ===
-echo Шаг 4: Удаление папок...
+echo РЁР°Рі 4: РЈРґР°Р»РµРЅРёРµ РїР°РїРѕРє...
 cd danilov\sergey
 rd alexeevich
 cd ..
 rd sergey
 cd ..
 rd danilov
-echo Папки удалены.
+echo РџР°РїРєРё СѓРґР°Р»РµРЅС‹.
 pause
 
